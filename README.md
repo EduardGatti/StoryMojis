@@ -1,19 +1,8 @@
-# Story Mojis  
+# React + Vite
 
-## Descrição  
-Story Mojis é um jogo interativo desenvolvido com React, CSS e HTML. O jogo consiste em girar uma roleta de emojis que, ao parar, apresenta um emoji aleatório. Com esse emoji, os jogadores são convidados a contar uma história criativa, tornando a experiência divertida e única.  
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Tecnologias Usadas  
-- **React**: Biblioteca JavaScript para a construção de interfaces de usuário.  
-- **CSS**: Para estilização dos componentes da aplicação.  
-- **HTML**: Estrutura básica da aplicação.  
+Currently, two official plugins are available:
 
-## Funcionalidades  
-- **Girar a Roleta**: O botão "Girar Roleta" inicia uma animação onde a roleta gira e, após alguns segundos, para em um emoji aleatório.  
-- **Emojis Aleatórios**: O jogo inclui uma variedade de emojis para embaralhar a narrativa.  
-- **Histórias Criativas**: Os jogadores podem usar o emoji selecionado como ponto de partida para contar suas histórias.  
-
-## Como Usar  
-1. Clone o repositório:  
-   ```bash  
-   git clone https://github.com/EduardGatti/storymojis.git
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

@@ -1,0 +1,39 @@
+.container-body {  
+  height: 100vh;  
+  background-color: #3b3b3b;  
+  display: flex;  
+  flex-direction: column; 
+  justify-content: center;  
+  align-items: center;  
+  gap: 100px;
+  color: #00BFFF;
+  font-family: Arial, Helvetica, sans-serif;
+} 
+
+button{
+
+  background-color: #535252;
+  color: #00BFFF;
+  width: 200px;
+  border: none;
+  border-radius: 16px;
+  height: 40px;
+  padding: 7px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 18px;
+}
+h1{
+
+  transform: translateY(-170px);
+
+}
+.img{
+
+  transform: translateY(-90px);
+
+}
+h2{
+
+  font-size: 90px;
+  
+}
