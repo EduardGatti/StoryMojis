@@ -16,4 +16,4 @@ Story Mojis é um jogo interativo desenvolvido com React, CSS e HTML. O jogo con
 ## Como Usar  
 1. Clone o repositório:  
    ```bash  
-   git clone https://github.com/seu-usuario/story-mojis.git
+   git clone https://github.com/EduardGatti/storymojis.git
