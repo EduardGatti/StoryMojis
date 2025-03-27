@@ -1,40 +1,83 @@
-.container-body {  
-  height: 100vh;  
-  background-color: #3b3b3b;  
-  display: flex;  
-  flex-direction: column; 
-  justify-content: center;  
-  align-items: center;  
-  gap: 100px;
-  color: #00BFFF;
-  font-family: Arial, Helvetica, sans-serif;
-} 
-
-button{
-
-  background-color: #535252;
-  color: #00BFFF;
-  width: 200px;
-  border: none;
-  border-radius: 16px;
-  height: 40px;
-  padding: 7px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 18px;
+/* Estilos principais */
+.app-container {
+  padding: 20px;
 }
-h1{
 
-  transform: translateY(-170px);
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-title {
+  font-size: 24px;
+  color: #D1005B;
+}
+
+.login-btn {
+  background-color: #D1005B;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.container {
+  margin: 20px;
+}
+
+.tabela {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabela td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.comprado {
+  background-color: lightgreen;
+}
+
+.admin-container {
+  margin-top: 20px;
+}
+
+.admin-title {
+  font-size: 24px;
+  color: #333;
+}
+
+.roleta-container {
+  text-align: center;
+}
+
+.roleta-numero {
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+button {
+  background-color: #ff9800;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f57c00;
+}
+
+.tabela-container {
+  margin-top: 20px;
+}
+
+.tabela-titulo {
   font-size: 20px;
-
-}
-.img{
-
-  transform: translateY(-90px);
-
-}
-h2{
-
-  font-size: 90px;
-  
+  text-align: center;
+  margin-bottom: 10px;
 }
